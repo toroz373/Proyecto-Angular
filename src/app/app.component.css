@@ -1,0 +1,15 @@
+main img {
+    height: 10lh;
+    margin-right: 10px;
+    align-items:center;
+  }
+  main{
+    text-align: center;
+    position: flex;
+    bottom: 0;
+    background-color:#317877;
+    align-items: center;
+    padding: 20px;
+    width: 98%;
+    height: 100%;
+  }

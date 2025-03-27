@@ -1,0 +1,54 @@
+
+.menu-hamburguesa {
+    width: 100%;
+}
+
+
+
+.menu-hamburguesa label:hover {
+    cursor: pointer;
+}
+
+.menu-hamburguesa input {
+    display: none;
+}
+
+
+#miMenu li a {
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    width: 30lh;
+    font-weight: bold;
+    background-color: #023d74;
+    margin-top: 0;
+}
+
+#miMenu li a:hover {
+    cursor: pointer;
+    background-color:#607d7c;
+}
+
+@media all and (min-width: 1000px) {
+
+    #miMenu {
+        display:inline-flex;
+        list-style: none;
+        padding: 0;
+        margin-right: 0;
+        padding-right: 0;
+        margin-bottom: 1px;
+
+    }
+    
+    .miMenuli {
+        display: block;
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+
+    }
+
+}

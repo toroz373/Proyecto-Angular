@@ -1,0 +1,9 @@
+<div class="galeria-container">
+  <h2>Galería de Imágenes</h2>
+  <div class="galeria">
+    <div class="imagen" *ngFor="let imagen of imagenes">
+      <img [src]="imagen.url" [alt]="imagen.descripcion" />
+      <p>{{ imagen.descripcion }}</p>
+    </div>
+  </div>
+</div>
